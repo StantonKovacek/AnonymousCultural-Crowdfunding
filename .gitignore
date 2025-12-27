@@ -1,0 +1,50 @@
+# Hardhat files
+cache
+artifacts
+fhevmTemp
+typechain
+typechain-types
+types
+
+# TypeScript
+*.tsbuildinfo
+dist
+build
+
+# Dependencies
+node_modules
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Coverage
+coverage
+coverage.json
+*.lcov
+
+# IDE
+.vscode
+.idea
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Misc
+*.pid
+*.seed
+*.pid.lock
+
+# Hardhat vars
+.hardhat_vars.json
