@@ -1,1 +1,13 @@
-
+{
+  "recommendations": [
+    "esbenp.prettier-vscode",
+    "dbaeumer.vscode-eslint",
+    "juanblanco.solidity",
+    "ms-vscode.vscode-typescript-next",
+    "streetsidesoftware.code-spell-checker",
+    "editorconfig.editorconfig",
+    "bierner.markdown-preview-github-styles",
+    "yzhang.markdown-all-in-one",
+    "gruntfuggly.todo-tree"
+  ]
+}

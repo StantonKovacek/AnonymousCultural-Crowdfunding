@@ -1,0 +1,61 @@
+{
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[solidity]": {
+    "editor.defaultFormatter": "JuanBlanco.solidity",
+    "editor.tabSize": 4
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.tabSize": 2
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.tabSize": 2
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.tabSize": 2
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.wordWrap": "on"
+  },
+  "solidity.compileUsingRemoteVersion": "v0.8.27",
+  "solidity.formatter": "prettier",
+  "solidity.defaultCompiler": "remote",
+  "files.associations": {
+    "*.sol": "solidity",
+    "*.ts": "typescript",
+    "hardhat.config.ts": "typescript"
+  },
+  "files.exclude": {
+    "**/node_modules": true,
+    "**/artifacts": true,
+    "**/cache": true,
+    "**/typechain": true,
+    "**/typechain-types": true,
+    "**/types": true,
+    "**/coverage": true,
+    "**/dist": true
+  },
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/artifacts": true,
+    "**/cache": true,
+    "**/typechain": true,
+    "**/typechain-types": true,
+    "**/coverage": true
+  },
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "typescript.enablePromptUseWorkspaceTsdk": true,
+  "eslint.validate": [
+    "javascript",
+    "typescript"
+  ],
+  "mochaExplorer.files": "test/**/*.ts",
+  "mochaExplorer.require": "ts-node/register"
+}
